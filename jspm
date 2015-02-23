@@ -1,0 +1,22 @@
+1. jspm install jsonp=github:code42day/jsonp
+
+https://github.com/code42day/jsonp
+
+jspm install request=npm:jsonp
+
+https://www.npmjs.com/package/jsonp
+
+
+Instagram API
+https://api.instagram.com/v1/media/popular?access_token=ACCESS-TOKEN
+
+db3e8e27d73c4a0a83699012432520aa
+
+
+var promise = new Promise((resolve, reject) => {
+            jsonp(this.url, (err, data) => {
+                resolve(data);
+            });
+        });
+        return promise;
+    }

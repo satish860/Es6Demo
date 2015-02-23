@@ -1,0 +1,1 @@
+module.exports = require("github:code42day/jsonp@1.0.0/index");
